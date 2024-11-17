@@ -16,7 +16,7 @@ setup(
     description="A modular MLOPS pipeline project",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="my-github-repo-url",
+    url="https://github.com/coder7475/modular-workflow-setup",
     packages=find_packages(),
      classifiers=[
         "Development Status :: 3 - Beta",
