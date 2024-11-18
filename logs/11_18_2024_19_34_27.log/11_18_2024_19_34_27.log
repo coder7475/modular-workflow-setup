@@ -1,0 +1,25 @@
+[ 2024-11-18 19:34:27,287 ] 16 root - INFO - Starting application
+[ 2024-11-18 19:34:27,287 ] 12 root - INFO - Error Raised
+[ 2024-11-18 19:34:27,287 ] 52 root - ERROR - 
+Error occurred in Python script:
+→ File: /home/fahad/mlops/project-1/custom_exception_logger.py
+→ Line number: 9
+→ Error message: division by zero
+[ 2024-11-18 19:34:27,288 ] 22 root - ERROR - Application failed
+Traceback (most recent call last):
+  File "/home/fahad/mlops/project-1/custom_exception_logger.py", line 9, in call_examp
+    result = x / y
+ZeroDivisionError: division by zero
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/fahad/mlops/project-1/custom_exception_logger.py", line 19, in <module>
+    call_examp()
+  File "/home/fahad/mlops/project-1/custom_exception_logger.py", line 13, in call_examp
+    raise CustomException(e, sys)
+src.exception.CustomException: 
+Error occurred in Python script:
+→ File: /home/fahad/mlops/project-1/custom_exception_logger.py
+→ Line number: 9
+→ Error message: division by zero
