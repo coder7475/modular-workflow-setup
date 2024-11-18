@@ -1,6 +1,6 @@
 from src.logger import logging
 
-def test_logger():
+def main():
     try:
         logging.info("Starting the main function")        
 
@@ -24,6 +24,16 @@ def test_logger():
 
 
 if __name__ == "__main__":
+    logging.info("="*50)
     logging.info("Starting logger test application")
-    test_logger()
-    logging.info("Application execution completed")
+    logging.info("="*50)
+
+    try:
+        main()
+        logging.info("Application execution completed")        
+    except Exception as e:
+        logging.error("Application failed", exc_info=True)
+    finally:
+        logging.info("="*50)
+        logging.info("Application execution ended!")
+        logging.info("="*50)
