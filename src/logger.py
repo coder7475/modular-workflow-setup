@@ -6,9 +6,9 @@ from datetime import datetime
 
 # Create a log file name with current timestamp
 LOG_FILE = f"{datetime.now().strftime('%m_%d_%Y_%H_%M_%S')}.log"
-
 # Create path for log directory and file
 log_path = os.path.join(os.getcwd(), "logs", LOG_FILE)
+
 # Create logs directory if it doesn't exist
 os.makedirs(log_path, exist_ok=True)
 # Set complete log file path
