@@ -1,5 +1,5 @@
 import os
-
+ 
 def create_files_and_directories(file_list):
     """
     Create the required directories and files based on the provided list.
