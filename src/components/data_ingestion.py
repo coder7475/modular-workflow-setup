@@ -10,3 +10,8 @@ class DataIngestionConfig:
     train_data_path = os.path.join("artifacts/data_ingestion", "train.csv")
     test_data_path = os.path.join("artifacts/data_ingestion", "test.csv")
     raw_data_path = os.path.join("artifacts/data_ingestion", "raw.csv")
+
+
+class DataIngestion:
+    def __init__(self):
+        self.ingestion_config = DataIngestionConfig()
