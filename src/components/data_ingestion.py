@@ -2,7 +2,7 @@
 import os, sys
 import pandas as pd
 import numpy as np
-from src.logger import logger
+from src.logger import logging
 from src.exception import CustomException
 from dataclasses import dataclass
 from sklearn.model_selection import train_test_split 
@@ -31,3 +31,5 @@ class DataIngestion:
             test_set.to_csv(self.ingestion_config.test_data_path, index=False, header=True)
 
         except Exception as e:
+            logging.info("Error occured in data ingestion stage")
+            raise CustomException(e, sys)
