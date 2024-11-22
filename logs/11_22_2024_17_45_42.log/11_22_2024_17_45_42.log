@@ -1,0 +1,5 @@
+[ 2024-11-22 17:45:48,272 ] 21 root - INFO - Data Ingestion started
+[ 2024-11-22 17:45:48,273 ] 23 root - INFO - Data reading using Pandas from local file
+[ 2024-11-22 17:45:48,470 ] 25 root - INFO - End Data Reading
+[ 2024-11-22 17:45:48,681 ] 29 root - INFO - Data Splitting started
+[ 2024-11-22 17:45:48,957 ] 34 root - INFO - Data splitting ended

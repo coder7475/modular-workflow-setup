@@ -1,0 +1,12 @@
+[ 2024-11-22 16:15:06,830 ] 27 root - INFO - ==================================================
+[ 2024-11-22 16:15:06,830 ] 28 root - INFO - Starting logger test application
+[ 2024-11-22 16:15:06,830 ] 29 root - INFO - ==================================================
+[ 2024-11-22 16:15:06,830 ] 5 root - INFO - Starting the main function
+[ 2024-11-22 16:15:06,830 ] 8 root - INFO - Initialize the application
+[ 2024-11-22 16:15:06,830 ] 12 root - INFO - Performing 5 + 10
+[ 2024-11-22 16:15:06,830 ] 15 root - INFO - Result: 15
+[ 2024-11-22 16:15:06,830 ] 19 root - WARNING - Result 15 is greater than 10
+[ 2024-11-22 16:15:06,830 ] 33 root - INFO - Application execution completed
+[ 2024-11-22 16:15:06,830 ] 37 root - INFO - ==================================================
+[ 2024-11-22 16:15:06,831 ] 38 root - INFO - Application execution ended!
+[ 2024-11-22 16:15:06,831 ] 39 root - INFO - ==================================================
