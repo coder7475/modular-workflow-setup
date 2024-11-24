@@ -7,3 +7,4 @@ kaggle
 dvc
 jupyter
 feast
+mlflow
