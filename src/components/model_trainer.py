@@ -16,7 +16,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.ensemble import RandomForestClassifier
 from src.utils import save_object
-
+from src.components.data_ingestion import DataIngestion
 @dataclass
 class ModelTrainingConfig:
     train_model_file_path = os.path.join("artifacts/model_trainer", "model.pkl")
